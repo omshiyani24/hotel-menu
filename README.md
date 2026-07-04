@@ -1,2 +1,1 @@
-# hotel-menu
-hotel menu in c language
+make in turbo c++

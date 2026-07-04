@@ -1,0 +1,2950 @@
+#include<stdio.h>
+#include<conio.h>
+#include<dos.h>
+
+void main()
+{
+	int choice,gujarati,marathi,chinese,punjabi,southindian;
+	int plate,amount;
+	int khaman,dhokala,khakhara,patudi,jalebifafada;
+	int pavbhaji,misalpav,kothmirvada,vadapav,milkshak;
+	int manchurian,chineseroll,vefer,zolocheepss,starter;
+	int kajukari,paneertikka,roti,paneerchilli,lassi;
+	int dosa,idali,fish,sambhar,chatani;
+
+	textbackground(BLUE);
+	clrscr();
+
+	gotoxy(27,1);
+	textcolor(RED);
+	cprintf("Welcome to Royal Cafe..!!");
+
+	textcolor(WHITE);
+	gotoxy(2,3);
+	cprintf("1-->Gujarati food");
+	gotoxy(2,4);
+	cprintf("2-->Marathi food");
+	gotoxy(2,5);
+	cprintf("3-->Chinese food");
+	gotoxy(2,6);
+	cprintf("4-->Punjabi food");
+	gotoxy(2,7);
+	cprintf("5-->South Indian food");
+
+	textcolor(YELLOW);
+	gotoxy(2,10);
+	cprintf("Enter your choice=");
+	scanf("%d",&choice);
+
+	switch(choice)
+	{
+		case 1:
+			textbackground(BLUE);
+			clrscr();
+
+			textcolor(LIGHTGREEN);
+			gotoxy(2,1);
+			cprintf("You selected Gujarati food");
+
+			textcolor(WHITE);
+			gotoxy(2,3);
+			cprintf("1-->khaman");
+			gotoxy(2,4);
+			cprintf("2-->dhokala");
+			gotoxy(2,5);
+			cprintf("3-->khakhara");
+			gotoxy(2,6);
+			cprintf("4-->patudi");
+			gotoxy(2,7);
+			cprintf("5-->jalebifafada");
+
+			textcolor(YELLOW);
+			gotoxy(2,10);
+			cprintf("Enter your choice=");
+			scanf("%d",&gujarati);
+
+			switch(gujarati)
+			{
+				case 1:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected khaman");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->sev khamani");
+					gotoxy(2,4);
+					cprintf("2-->rasawala khaman");
+					gotoxy(2,5);
+					cprintf("3-->naylon khaman");
+					gotoxy(2,6);
+					cprintf("4-->vati dal khaman");
+					gotoxy(2,7);
+					cprintf("5-->masala khaman");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&khaman);
+
+					switch(khaman)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected sev khamani");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected rasawala khaman");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected naylon khaman");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=60*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vati dal khaman");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=30*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected masala khaman");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=80*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice!!");
+							break;
+					}
+					break;
+
+				case 2:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected dhokala");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->makai dhokala");
+					gotoxy(2,4);
+					cprintf("2-->oil dhokala");
+					gotoxy(2,5);
+					cprintf("3-->vegetable dhokala");
+					gotoxy(2,6);
+					cprintf("4-->surti dhokala");
+					gotoxy(2,7);
+					cprintf("5-->vefer dhokala");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&dhokala);
+
+					switch(dhokala)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected makai dhokala");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected oil dhokala");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=60*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vegetable dhokala");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=80*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected surti dhokala");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=34*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vefer dhokala");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=110*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice!!");
+							break;
+					}
+					break;
+
+				case 3:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected khakhara");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->cheese khakhara");
+					gotoxy(2,4);
+					cprintf("2-->methi khakhara");
+					gotoxy(2,5);
+					cprintf("3-->bhaji khakhara");
+					gotoxy(2,6);
+					cprintf("4-->jain khakhara");
+					gotoxy(2,7);
+					cprintf("5-->surti khakhara");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&khakhara);
+
+					switch(khakhara)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese khakhara");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=150*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected methi khakhara");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=90*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected bhaji khakhara");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=190*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected jain khakhara");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=200*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected surti khakhara");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=155*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice!!");
+							break;
+					}
+					break;
+
+				case 4:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected patudi");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->sev patudi");
+					gotoxy(2,4);
+					cprintf("2-->rasawali patudi");
+					gotoxy(2,5);
+					cprintf("3-->cheese patudi");
+					gotoxy(2,6);
+					cprintf("4-->mix patudi");
+					gotoxy(2,7);
+					cprintf("5-->masala patudi");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&patudi);
+
+					switch(patudi)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected sev patudi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=150*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected rasawali patudi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese patudi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=160*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mix patudi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=130*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected masala patudi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=180*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice!!");
+							break;
+					}
+					break;
+
+				case 5:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected jalebifafada");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->sev fafada");
+					gotoxy(2,4);
+					cprintf("2-->jalebi fafada with butter");
+					gotoxy(2,5);
+					cprintf("3-->special fafada");
+					gotoxy(2,6);
+					cprintf("4-->jethalal fafada");
+					gotoxy(2,7);
+					cprintf("5-->tapu jalebi");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&jalebifafada);
+
+					switch(jalebifafada)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected sev fafada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=250*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected jalebi fafada with butter");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=240*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected special fafada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=260*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected jethalal fafada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=230*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected tapu jalebi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=280*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice!!");
+							break;
+					}
+					break;
+
+				default:
+					sound(1000);
+					delay(250);
+					nosound();
+					textcolor(RED);
+					gotoxy(2,12);
+					cprintf("Invalid choice!!");
+					break;
+			}
+			break;
+
+		case 2:
+			textbackground(BLUE);
+			clrscr();
+
+			textcolor(LIGHTGREEN);
+			gotoxy(2,1);
+			cprintf("You selected Marathi food");
+
+			textcolor(WHITE);
+			gotoxy(2,3);
+			cprintf("1-->pavbhaji");
+			gotoxy(2,4);
+			cprintf("2-->misalpav");
+			gotoxy(2,5);
+			cprintf("3-->kothmirvada");
+			gotoxy(2,6);
+			cprintf("4-->vadapav");
+			gotoxy(2,7);
+			cprintf("5-->milkshak");
+
+			textcolor(YELLOW);
+			gotoxy(2,10);
+			cprintf("Enter your choice=");
+			scanf("%d",&marathi);
+
+			switch(marathi)
+			{
+				case 1:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected pavbhaji");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->butter bhaji");
+					gotoxy(2,4);
+					cprintf("2-->cheese bhaji");
+					gotoxy(2,5);
+					cprintf("3-->oil bhaji");
+					gotoxy(2,6);
+					cprintf("4-->marathi bhaji");
+					gotoxy(2,7);
+					cprintf("5-->masala bhaji");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&pavbhaji);
+
+					switch(pavbhaji)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter bhaji");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=550*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese bhaji");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=540*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected oil bhaji");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=560*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected marathi bhaji");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=530*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected masala bhaji");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=580*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 2:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected misalpav");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->butter pav");
+					gotoxy(2,4);
+					cprintf("2-->oiltadaka pav");
+					gotoxy(2,5);
+					cprintf("3-->vegetable pav");
+					gotoxy(2,6);
+					cprintf("4-->marathi pav");
+					gotoxy(2,7);
+					cprintf("5-->vefer pav");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&misalpav);
+
+					switch(misalpav)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected oiltadaka pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=60*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vegetable pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=80*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected marathi pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=34*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vefer pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=110*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 3:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected kothmirvada");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->cheese vada");
+					gotoxy(2,4);
+					cprintf("2-->methi vada");
+					gotoxy(2,5);
+					cprintf("3-->lesun vada");
+					gotoxy(2,6);
+					cprintf("4-->jain vada");
+					gotoxy(2,7);
+					cprintf("5-->marathi vada");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&kothmirvada);
+
+					switch(kothmirvada)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese vada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=150*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected methi vada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=90*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected lesun vada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=190*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected jain vada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=200*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected marathi vada");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=155*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 4:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected vadapav");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->sev pav");
+					gotoxy(2,4);
+					cprintf("2-->rasawala pav");
+					gotoxy(2,5);
+					cprintf("3-->cheese pav");
+					gotoxy(2,6);
+					cprintf("4-->mix pav");
+					gotoxy(2,7);
+					cprintf("5-->masala pav");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&vadapav);
+
+					switch(vadapav)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected sev pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=150*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected rasawala pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=160*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mix pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=130*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected masala pav");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=180*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 5:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected milkshak");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->badam shak");
+					gotoxy(2,4);
+					cprintf("2-->angeer shak");
+					gotoxy(2,5);
+					cprintf("3-->special faluda");
+					gotoxy(2,6);
+					cprintf("4-->thik shak");
+					gotoxy(2,7);
+					cprintf("5-->milk shak with icecream");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&milkshak);
+
+					switch(milkshak)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected badam shak");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=250*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected angeer shak");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=240*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected special faluda");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=260*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected thik shak");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=230*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected milk shak with icecream");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=280*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				default:
+					sound(1000);
+					delay(250);
+					nosound();
+					textcolor(RED);
+					gotoxy(2,12);
+					cprintf("Invalid choice");
+					break;
+			}
+			break;
+
+		case 3:
+			textbackground(BLUE);
+			clrscr();
+
+			textcolor(LIGHTGREEN);
+			gotoxy(2,1);
+			cprintf("You selected Chinese food");
+
+			textcolor(WHITE);
+			gotoxy(2,3);
+			cprintf("1-->manchuriyan");
+			gotoxy(2,4);
+			cprintf("2-->chinese roll");
+			gotoxy(2,5);
+			cprintf("3-->vefer");
+			gotoxy(2,6);
+			cprintf("4-->zolo cheepss");
+			gotoxy(2,7);
+			cprintf("5-->starter");
+
+			textcolor(YELLOW);
+			gotoxy(2,10);
+			cprintf("Enter your choice=");
+			scanf("%d",&chinese);
+
+			switch(chinese)
+			{
+				case 1:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected manchuriyan");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->vegetable manchurian");
+					gotoxy(2,4);
+					cprintf("2-->mexican manchurian");
+					gotoxy(2,5);
+					cprintf("3-->full manchrian");
+					gotoxy(2,6);
+					cprintf("4-->half manchurian");
+					gotoxy(2,7);
+					cprintf("5-->masala tadaka manchurian");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&manchurian);
+
+					switch(manchurian)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vegetable manchurian");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=200*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mexican manchurian");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=100*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected full manchrian");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=120*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected half manchurian");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=100*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected masala tadaka manchurian");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=255*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 2:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected chinese roll");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->cheese roll");
+					gotoxy(2,4);
+					cprintf("2-->paneer roll");
+					gotoxy(2,5);
+					cprintf("3-->vegetable roll");
+					gotoxy(2,6);
+					cprintf("4-->mini roll");
+					gotoxy(2,7);
+					cprintf("5-->spicy roll");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&chineseroll);
+
+					switch(chineseroll)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese roll");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=30*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected paneer roll");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vegetable roll");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mini roll");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=25*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy roll");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=70*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 3:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected vefer");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->spicy vefer");
+					gotoxy(2,4);
+					cprintf("2-->cheese vefer");
+					gotoxy(2,5);
+					cprintf("3-->nachose");
+					gotoxy(2,6);
+					cprintf("4-->butter cheepss");
+					gotoxy(2,7);
+					cprintf("5-->balaji vefer");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&vefer);
+
+					switch(vefer)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy vefer");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=35*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese vefer");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected nachose");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=25*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter cheepss");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=150*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected balaji vefer");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=10*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 4:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected zolo cheepss");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->tadaka cheepss");
+					gotoxy(2,4);
+					cprintf("2-->spicy cheepss");
+					gotoxy(2,5);
+					cprintf("3-->butter cheepss");
+					gotoxy(2,6);
+					cprintf("4-->cheese cheepss");
+					gotoxy(2,7);
+					cprintf("5-->chinese cheepss");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&zolocheepss);
+
+					switch(zolocheepss)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected tadaka cheepss");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=80*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy cheepss");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=100*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter cheepss");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=70*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese cheepss");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=45*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected chinese cheepss");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=123*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 5:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected starter");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->manchau sup");
+					gotoxy(2,4);
+					cprintf("2-->tomato sup");
+					gotoxy(2,5);
+					cprintf("3-->mexican sup");
+					gotoxy(2,6);
+					cprintf("4-->vegetable sup");
+					gotoxy(2,7);
+					cprintf("5-->makai sup");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&starter);
+
+					switch(starter)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected manchau sup");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected tomato sup");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=45*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mexican sup");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=65*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vegetable sup");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=125*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected makai sup");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=120*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				default:
+					sound(1000);
+					delay(250);
+					nosound();
+					textcolor(RED);
+					gotoxy(2,12);
+					cprintf("Invalid choice");
+					break;
+			}
+			break;
+
+		case 4:
+			textbackground(BLUE);
+			clrscr();
+
+			textcolor(LIGHTGREEN);
+			gotoxy(2,1);
+			cprintf("You selected Punjabi food");
+
+			textcolor(WHITE);
+			gotoxy(2,3);
+			cprintf("1-->kajukari");
+			gotoxy(2,4);
+			cprintf("2-->paneer tikka");
+			gotoxy(2,5);
+			cprintf("3-->roti");
+			gotoxy(2,6);
+			cprintf("4-->paneer chilli");
+			gotoxy(2,7);
+			cprintf("5-->lassi");
+
+			textcolor(YELLOW);
+			gotoxy(2,10);
+			cprintf("Enter your choice=");
+			scanf("%d",&punjabi);
+
+			switch(punjabi)
+			{
+				case 1:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected kajukari");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->cheese kari");
+					gotoxy(2,4);
+					cprintf("2-->paneer kari");
+					gotoxy(2,5);
+					cprintf("3-->veg kari");
+					gotoxy(2,6);
+					cprintf("4-->nonveg kari");
+					gotoxy(2,7);
+					cprintf("5-->egg kari");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&kajukari);
+
+					switch(kajukari)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese kari");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=280*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected paneer kari");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=300*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected veg kari");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=250*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected nonveg kari");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=300*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected egg kari");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=280*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 2:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected paneer tikka");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->cheese tikka");
+					gotoxy(2,4);
+					cprintf("2-->butter tikka");
+					gotoxy(2,5);
+					cprintf("3-->spicy tikka");
+					gotoxy(2,6);
+					cprintf("4-->punjabi tikka");
+					gotoxy(2,7);
+					cprintf("5-->mutter tikka");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&paneertikka);
+
+					switch(paneertikka)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese tikka");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=180*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter tikka");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=200*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy tikka");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=190*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected punjabi tikka");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=280*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mutter tikka");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=200*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 3:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected roti");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->chapati");
+					gotoxy(2,4);
+					cprintf("2-->tanduri");
+					gotoxy(2,5);
+					cprintf("3-->naan");
+					gotoxy(2,6);
+					cprintf("4-->ghee chapati");
+					gotoxy(2,7);
+					cprintf("5-->butter chapati");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&roti);
+
+					switch(roti)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected chapati");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=20*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected tanduri");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=25*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected naan");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=30*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected ghee chapati");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=27*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter chapati");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=35*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 4:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected paneer chilli");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->spicy chilli");
+					gotoxy(2,4);
+					cprintf("2-->cheese chilli");
+					gotoxy(2,5);
+					cprintf("3-->paneer chilli");
+					gotoxy(2,6);
+					cprintf("4-->vefer chilli");
+					gotoxy(2,7);
+					cprintf("5-->butter chilli");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&paneerchilli);
+
+					switch(paneerchilli)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy chilli");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=155*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese chilli");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=135*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected paneer chilli");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=155*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vefer chilli");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=124*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter chilli");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=145*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 5:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected lassi");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->mango lassi");
+					gotoxy(2,4);
+					cprintf("2-->rose lassi");
+					gotoxy(2,5);
+					cprintf("3-->punjabi lassi");
+					gotoxy(2,6);
+					cprintf("4-->butter lassi");
+					gotoxy(2,7);
+					cprintf("5-->vimal lassi");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&lassi);
+
+					switch(lassi)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected mango lassi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected rose lassi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected punjabi lassi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=10*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected butter lassi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=125*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vimal lassi");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=120*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				default:
+					sound(1000);
+					delay(250);
+					nosound();
+					textcolor(RED);
+					gotoxy(2,12);
+					cprintf("Invalid choice");
+					break;
+			}
+			break;
+
+		case 5:
+			textbackground(BLUE);
+			clrscr();
+
+			textcolor(LIGHTGREEN);
+			gotoxy(2,1);
+			cprintf("You selected South Indian food");
+
+			textcolor(WHITE);
+			gotoxy(2,3);
+			cprintf("1-->dosa");
+			gotoxy(2,4);
+			cprintf("2-->idali");
+			gotoxy(2,5);
+			cprintf("3-->fish");
+			gotoxy(2,6);
+			cprintf("4-->sambhar");
+			gotoxy(2,7);
+			cprintf("5-->chatani");
+
+			textcolor(YELLOW);
+			gotoxy(2,10);
+			cprintf("Enter your choice=");
+			scanf("%d",&southindian);
+
+			switch(southindian)
+			{
+				case 1:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected dosa");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->cheese dosa");
+					gotoxy(2,4);
+					cprintf("2-->paneer dosa");
+					gotoxy(2,5);
+					cprintf("3-->spicy dosa");
+					gotoxy(2,6);
+					cprintf("4-->chilli dosa");
+					gotoxy(2,7);
+					cprintf("5-->pizza dosa");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&dosa);
+
+					switch(dosa)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese dosa");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=225*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected paneer dosa");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=224*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy dosa");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=250*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected chilli dosa");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=150*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected pizza dosa");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=234*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 2:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected idali");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->makai idali");
+					gotoxy(2,4);
+					cprintf("2-->cheese idali");
+					gotoxy(2,5);
+					cprintf("3-->south indian idali");
+					gotoxy(2,6);
+					cprintf("4-->spicy idali");
+					gotoxy(2,7);
+					cprintf("5-->idali tadaka");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&idali);
+
+					switch(idali)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected makai idali");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=50*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected cheese idali");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=160*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected south indian idali");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=80*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected spicy idali");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=70*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected idali tadaka");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=90*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 3:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected fish");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->fish fry");
+					gotoxy(2,4);
+					cprintf("2-->fish curry");
+					gotoxy(2,5);
+					cprintf("3-->fish masala");
+					gotoxy(2,6);
+					cprintf("4-->fish rice");
+					gotoxy(2,7);
+					cprintf("5-->special fish");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&fish);
+
+					switch(fish)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected fish fry");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=180*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected fish curry");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=200*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected fish masala");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=220*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected fish rice");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=250*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected special fish");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=300*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 4:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected sambhar");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->plain sambhar");
+					gotoxy(2,4);
+					cprintf("2-->masala sambhar");
+					gotoxy(2,5);
+					cprintf("3-->idali sambhar");
+					gotoxy(2,6);
+					cprintf("4-->vada sambhar");
+					gotoxy(2,7);
+					cprintf("5-->special sambhar");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&sambhar);
+
+					switch(sambhar)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected plain sambhar");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected masala sambhar");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=60*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected idali sambhar");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=80*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected vada sambhar");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=90*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected special sambhar");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=100*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				case 5:
+					textbackground(BLUE);
+					clrscr();
+
+					textcolor(LIGHTCYAN);
+					gotoxy(2,1);
+					cprintf("you selected chatani");
+
+					textcolor(WHITE);
+					gotoxy(2,3);
+					cprintf("1-->coconut chatani");
+					gotoxy(2,4);
+					cprintf("2-->tomato chatani");
+					gotoxy(2,5);
+					cprintf("3-->green chatani");
+					gotoxy(2,6);
+					cprintf("4-->garlic chatani");
+					gotoxy(2,7);
+					cprintf("5-->special chatani");
+
+					textcolor(YELLOW);
+					gotoxy(2,10);
+					cprintf("Enter your choice=");
+					scanf("%d",&chatani);
+
+					switch(chatani)
+					{
+						case 1:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected coconut chatani");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=20*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 2:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected tomato chatani");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=25*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 3:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected green chatani");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=20*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 4:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected garlic chatani");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=30*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						case 5:
+							textcolor(LIGHTCYAN);
+							gotoxy(2,12);
+							cprintf("you selected special chatani");
+							textcolor(WHITE);
+							gotoxy(2,13);
+							cprintf("Enter number of plate you want?=");
+							scanf("%d",&plate);
+							amount=40*plate;
+							textcolor(LIGHTGREEN);
+							gotoxy(2,15);
+							cprintf("your total bill=%d",amount);
+							break;
+
+						default:
+							sound(1000);
+							delay(250);
+							nosound();
+							textcolor(RED);
+							gotoxy(2,12);
+							cprintf("Invalid choice");
+							break;
+					}
+					break;
+
+				default:
+					sound(1000);
+					delay(250);
+					nosound();
+					textcolor(RED);
+					gotoxy(2,12);
+					cprintf("Invalid choice");
+					break;
+			}
+			break;
+
+		default:
+			sound(1000);
+			delay(250);
+			nosound();
+			textcolor(RED);
+			gotoxy(2,12);
+			cprintf("Invalid choice");
+			break;
+	}
+
+
+	textcolor(LIGHTMAGENTA);
+	gotoxy(2,18);
+	cprintf("Thank you for visiting Royal Cafe..!!");
+
+	textcolor(WHITE);
+	gotoxy(2,20);
+	cprintf("Press any key to exit...");
+	getch();
+}

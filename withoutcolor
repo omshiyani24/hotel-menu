@@ -1,0 +1,1172 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+	int choice,gujarati,marathi,chinese,punjabi,south_indian,khaman;
+	int plate,amount,dhokala,khakhara,patudi,jalebifafada,pavbhaji;
+	int misalpav,vadapav,kothmirvada,milkshak,manchurian,chineseroll;
+	int vefer,zolocheepss,starter,kajukari,paneertikka,roti,lassi;
+	int paneerchilli,dosa,idali,fish,sambhar,chatani;
+	textbackground(BLUE);
+
+	clrscr();
+	gotoxy(27,1);
+	textcolor(RED);
+	cprintf("Welcome to Royal Cafe..!!");
+	gotoxy(2,1);
+	printf("\n1-->Gujarati food");
+	printf("\n2-->Marathi food");
+	printf("\n3-->chinese food");
+	printf("\n4-->punjabi food");
+	printf("\n5-->south indian food");
+	printf("\n Enter your choice=");
+	scanf("%d",&choice);
+
+	switch(choice)
+
+	{
+		case 1: printf("\n You selected Gujarati food");
+			printf("\n1-->khaman");
+			printf("\n2-->dhokala");
+			printf("\n3-->khakhara");
+			printf("\n4-->patudi");
+			printf("\n5-->jalebifafada");
+			printf("\nEnter your choice=");
+			scanf("%d",&gujarati);
+
+		switch(gujarati)
+		{
+			case 1: printf("\nYou selected khaman");
+				printf("\n1-->sev khamani");
+				printf("\n2-->rasawala khaman");
+				printf("\n3-->naylon khaman");
+				printf("\n4-->vati dal khaman");
+				printf("\n5-->masala khaman");
+				printf("\nEnter your choice=");
+				scanf("%d",&khaman);
+				switch(khaman)
+				{
+					case 1:printf("\nyou selected sev khamani");
+					       printf("\nEnter number of plate you want?=");
+					       scanf("%d",&plate);
+					       amount=50*plate;
+					       printf("\nyour total amount=%d",amount);
+					       break;
+					case 2:printf("\nYou selected rala wala khaman");
+						printf("\n Enter plate of number you want?=");
+						scanf("%d",&plate);
+						amount=40*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nYou selected naylon khaman");
+						printf("\nEnter number of plate want?=");
+						scanf("%d",&plate);
+						amount=plate*60;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected vati dal khaman");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*30;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected masala khaman");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*80;
+						printf("\nyour total bill=%d",amount);
+						break;
+				}
+				 break;
+
+			case 2:printf("\nyou selected dhokala");
+				printf("\n1-->makai dhokala");
+				printf("\n2-->oil dhokala");
+				printf("\n3-->vegetable dhokala");
+				printf("\n4-->surti dhokala");
+				printf("\n5-->vefer dhokala");
+				printf("\nEnter your choice=");
+				scanf("%d",&dhokala);
+				switch(dhokala)
+				{
+					case 1:printf("\nyou selected makai dhokala");
+						printf("\nEnter number plate you want?=");
+						scanf("%d",&plate);
+						amount=50*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 2:printf("\nyou selected oil dhokala");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*60;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nyou selected vegetable dhokala  ");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=80*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected surti dhokala");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*34;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5:printf("\nyou selected vefer dhokala");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*110;
+						printf("\nyour total bill=%d",amount);
+						break;
+				}
+				       break;
+			   case 3:printf("\nyou selected khakhara");
+				  printf("\n1-->cheese khakhara");
+				  printf("\n2-->methi khakhara");
+				  printf("\n3-->bhaji khakhara");
+				  printf("\n4-->jain khakhara");
+				  printf("\n5-->surti khakhara");
+				  printf("\nEnter your choice");
+				  scanf("%d",&khakhara);
+				  switch(khakhara)
+				  {
+					case 1: printf("\nyou selected cheese khakhara");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=150*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 2: printf("\nyou selected methi khakhara");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=90*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3: printf("\nyou selected bhaji khakhara");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=190*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4: printf("\nyou selected jain khakhara");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=200*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected surti khakhara");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=155*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+				  }
+					     break;
+			case 4: printf("\nYou selected patudi");
+				printf("\n1-->sev patudi");
+				printf("\n2-->rasawali patudi");
+				printf("\n3-->cheese patudi");
+				printf("\n4-->mix patudi");
+				printf("\n5-->masala patudi");
+				printf("\nEnter your choice=");
+				scanf("%d",&patudi);
+				switch(patudi)
+				{
+					case 1:printf("\nyou selected sev parudi");
+					       printf("\nEnter number of plate you want?=");
+					       scanf("%d",&plate);
+					       amount=150*plate;
+					       printf("\nyour total amount=%d",amount);
+					       break;
+					case 2:printf("\nYou selected rasawali patudi");
+						printf("\n Enter plate of number you want?=");
+						scanf("%d",&plate);
+						amount=40*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nYou selected cheese patudi");
+						printf("\nEnter number of plate want?=");
+						scanf("%d",&plate);
+						amount=plate*160;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected mix patudi");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*130;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected masala patudi");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*180;
+						printf("\nyour total bill=%d",amount);
+						break;
+			}
+			break;
+			case 5: printf("\nYou selected jalebifafada");
+				printf("\n1-->sev fafada");
+				printf("\n2-->jalebi fafada with butter");
+				printf("\n3-->special fafada");
+				printf("\n4-->jethalal fafada");
+				printf("\n5-->tapu's jalebi");
+				printf("\nEnter your choice=");
+				scanf("%d",&jalebifafada);
+				switch(jalebifafada)
+				{
+					case 1:printf("\nyou selected sev fafada");
+					       printf("\nEnter number of plate you want?=");
+					       scanf("%d",&plate);
+					       amount=250*plate;
+					       printf("\nyour total amount=%d",amount);
+					       break;
+					case 2:printf("\nYou selected jalebi fafada with butter");
+						printf("\n Enter plate of number you want?=");
+						scanf("%d",&plate);
+						amount=240*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nYou selected special fafada");
+						printf("\nEnter number of plate want?=");
+						scanf("%d",&plate);
+						amount=plate*260;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected jethalal fafada");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*230;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected tapu's jalebi");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*280;
+						printf("\nyour total bill=%d",amount);
+						break;
+				}
+			      break;
+	     }
+	     break;
+	     case 2: printf("\n You selected marathi food");
+			printf("\n1-->pavbhaji");
+			printf("\n2-->misalpav");
+			printf("\n3-->kothmirvada");
+			printf("\n4-->vadapav");
+			printf("\n5-->milkshak");
+			printf("\nEnter your choice=");
+			scanf("%d",&marathi);
+
+		switch(marathi)
+		{
+			case 1: printf("\nYou selected pavbhaji");
+				printf("\n1-->butter bhaji");
+				printf("\n2-->cheese bhaji");
+				printf("\n3-->oil bhaji");
+				printf("\n4-->marathi bhaji");
+				printf("\n5-->masala bhaji");
+				printf("\nEnter your choice=");
+				scanf("%d",&pavbhaji);
+				switch(pavbhaji)
+				{
+					case 1:printf("\nyou selected butter bhaji");
+					       printf("\nEnter number of plate you want?=");
+					       scanf("%d",&plate);
+					       amount=550*plate;
+					       printf("\nyour total amount=%d",amount);
+					       break;
+					case 2:printf("\nYou selected cheese bhaji");
+						printf("\n Enter plate of number you want?=");
+						scanf("%d",&plate);
+						amount=540*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nYou selected oil bhaji");
+						printf("\nEnter number of plate want?=");
+						scanf("%d",&plate);
+						amount=plate*560;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected marathi bhaji");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*530;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected masala bhaji");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*580;
+						printf("\nyour total bill=%d",amount);
+						break;
+				}
+				    break;
+
+			case 2:printf("\nyou selected misalpav");
+				printf("\n1-->butter pav");
+				printf("\n2-->oiltadaka pav");
+				printf("\n3-->vegetable pav");
+				printf("\n4-->marathi pav");
+				printf("\n5-->vefer pav");
+				printf("\nEnter your choice=");
+				scanf("%d",&misalpav);
+				switch(misalpav)
+				{
+					case 1:printf("\nyou selected butter pav");
+						printf("\nEnter number plate you want?=");
+						scanf("%d",&plate);
+						amount=50*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 2:printf("\nyou selected oiltadaka pav");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*60;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nyou selected vegetable pav");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=80*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected marathi pav");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*34;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5:printf("\nyou selected vefer pav");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*110;
+						printf("\nyour total bill=%d",amount);
+						break;
+				}
+					  break;
+			   case 3:printf("\nyou selected kothmirvada");
+				  printf("\n1-->cheese vada");
+				  printf("\n2-->methi vada");
+				  printf("\n3-->lesun vada");
+				  printf("\n4-->jain vada");
+				  printf("\n5-->marathi vada ");
+				  printf("\nEnter your choice");
+				  scanf("%d",&kothmirvada);
+				  switch(kothmirvada)
+				  {
+					case 1: printf("\nyou selected cheese vada");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=150*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 2: printf("\nyou selected methi vada");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=90*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3: printf("\nyou selected lesun vada");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=190*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4: printf("\nyou selected jain vada");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=200*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected marathi vada");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=155*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+				  }
+						break;
+			case 4: printf("\nYou selected vadapav");
+				printf("\n1-->sev pav");
+				printf("\n2-->rasawala pav");
+				printf("\n3-->cheese pav");
+				printf("\n4-->mix pav");
+				printf("\n5-->masala pav");
+				printf("\nEnter your choice=");
+				scanf("%d",&vadapav);
+				switch(vadapav)
+				{
+					case 1:printf("\nyou selected sev pav");
+					       printf("\nEnter number of plate you want?=");
+					       scanf("%d",&plate);
+					       amount=150*plate;
+					       printf("\nyour total amount=%d",amount);
+					       break;
+					case 2:printf("\nYou selected rasawala pav");
+						printf("\n Enter plate of number you want?=");
+						scanf("%d",&plate);
+						amount=40*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nYou selected cheese pav");
+						printf("\nEnter number of plate want?=");
+						scanf("%d",&plate);
+						amount=plate*160;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected mix pav");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*130;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected masala pav");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*180;
+						printf("\nyour total bill=%d",amount);
+						break;
+			}
+			break;
+			case 5: printf("\nYou selected milkshak");
+				printf("\n1-->badam shak");
+				printf("\n2-->angeer shak");
+				printf("\n3-->special faluda");
+				printf("\n4-->thik shak");
+				printf("\n5-->milk shak with icecream");
+				printf("\nEnter your choice=");
+				scanf("%d",&milkshak);
+				switch(milkshak)
+				{
+					case 1:printf("\nyou selected badam shak");
+					       printf("\nEnter number of plate you want?=");
+					       scanf("%d",&plate);
+					       amount=250*plate;
+					       printf("\nyour total amount=%d",amount);
+					       break;
+					case 2:printf("\nYou selected angeer shak");
+						printf("\n Enter plate of number you want?=");
+						scanf("%d",&plate);
+						amount=240*plate;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 3:printf("\nYou selected special faluda");
+						printf("\nEnter number of plate want?=");
+						scanf("%d",&plate);
+						amount=plate*260;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 4:printf("\nyou selected thik shak");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*230;
+						printf("\nyour total bill=%d",amount);
+						break;
+					case 5: printf("\nyou selected milk shak with icecream");
+						printf("\nEnter number of plate you want?=");
+						scanf("%d",&plate);
+						amount=plate*280;
+						printf("\nyour total bill=%d",amount);
+						break;
+				}
+				break;
+	}
+	break;
+			    case 3:printf("\nyou selected chinese food");
+				    printf("\n1-->manchuriyan");
+				    printf("\n2-->chinese roll");
+				    printf("\n3--> vefer");
+				    printf("\n4-->zolo cheepss");
+				    printf("\n5-->starter");
+				    printf("\nEnter your choice=");
+				    scanf("%d",&chinese);
+				    switch(chinese)
+				    {
+					case 1:printf("you selected manchurian");
+					       printf("\n1-->vegetable manchurian");
+					       printf("\n2-->mexican manchurian");
+					       printf("\n3-->full manchrian");
+					       printf("\n4-->half manchurian");
+					       printf("\n5-->masala tadaka manchurian");
+					       printf("\nEnter your chice");
+					       scanf("%d",&manchurian);
+					       switch(manchurian)
+					       {
+							case 1:printf("\nyou selected vegetagle manchurian");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=200*plate;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 2:printf("\nyou selected mexican manchurian");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=100*plate;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 3:printf("\nyou selected full manchrian");
+								printf("\nEneter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*120;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 4:printf("\nyou selected half manchurian");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*100;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 5:printf("\nyou are selected masala tadaka manchurian");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=255*plate;
+								printf("\nyour total bill=%d",amount);
+								break;
+					       }
+						break;
+					      case 2:printf("\nyou selected chinese roll");
+							printf("\n1-->chesse roll");
+							printf("\n2-->paneer roll");
+							printf("\n3-->vegetable roll");
+							printf("\n4-->mini roll");
+							printf("\n5-->spicy roll");
+							printf("\nEnter your choice=");
+							scanf("%d",&chineseroll);
+							switch(chineseroll)
+							{
+								case 1:printf("\nyou selected chesse roll");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=30*plate;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 2:printf("\nyou selected paneer roll");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=50*plate;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 4:printf("\nyou selected mini roll");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=25*plate;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 3: printf("\nyou selected vegetable roll");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*50;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 5:printf("\nyou selected spicy roll");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*70;
+									printf("\nyour total bill=%d",amount);
+									break;
+
+
+							}
+							break;
+				      case 3:printf("\nyou selected vefer");
+						printf("\n1-->spicy vefer");
+						printf("\n2-->cheese vefer");
+						printf("\n3-->nachose");
+						printf("\n4-->butter cheepss");
+						printf("\n5-->balaji vefer");
+						printf("\nenter your choice=");
+						scanf("%d",&vefer);
+						switch(vefer)
+						{
+							case 1:printf("\nyou selected spicy vefer");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*35;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 2:printf("\nyou selected cheese vefer");
+								printf("\n-->Enetr number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*40;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 3:printf("\nyou selected nachose");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*25;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 4:printf("\nyou selected butter cheepss");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*150;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 5:printf("\nyou selected balaji vefer");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=10*plate;
+								printf("\nyour total bill=%d",amount);
+								break;
+
+						}
+						break;
+				      case 4:printf("you selected zolo cheeps");
+						printf("\n1-->tadaka cheepss");
+						printf("\n2-->spicy cheepss");
+						printf("\n3-->butter cheepss");
+						printf("\n4-->cheese cheepss");
+						printf("\n5-->chinese cheepss");
+						printf("Enter your choice");
+						scanf("%d",&zolocheepss);
+						switch(zolocheepss)
+						{
+							case 1:printf("you selected tadaka cheepss");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*80;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 2:printf("you selected spicy cheepss");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*100;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 3:printf("you selected butter cheepss");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*70;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 4:printf("you selected  cheese cheepss");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*45;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 5:printf("you selected chinese cheepss");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*123;
+								printf("\nyour total bill=%d",amount);
+								break;
+
+
+
+						}
+						break;
+					  case 5:printf("you selected starter");
+						printf("\n1-->manchau sup");
+						printf("\n2-->tomato sup");
+						printf("\n3-->mexican sup");
+						printf("\n4-->vegetable sup");
+						printf("\n5-->makai sup");
+						printf("\nEnter your choice");
+						scanf("%d",&starter);
+						switch(starter)
+						{
+							case 1:printf("you selected manchau sup");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*50;
+								printf("\nyour total bill=%d",amount);
+								break;
+						      case 2:printf("you selected tomato sup");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*45;
+								printf("\n your total bill=%d",amount);
+								break;
+							case 3:printf("you selected mexican sup");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*65;
+								printf("\nyour total bill=%d",amount);
+								break;
+							case 4:printf("you selected vegetable sup");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*125;
+								printf("\nyor total bill=%d",amount);
+								break;
+							case 5:printf("you selected makai sup");
+								printf("\nEnter number of plate you want?=");
+								scanf("%d",&plate);
+								amount=plate*120;
+								printf("\nyour total bill=%d",amount);
+								break;
+						}
+						break;
+				    }
+				      break;
+				   case 4:printf("you selected punjabi food");
+						printf("\n1-->kajukari ");
+						printf("\n2-->panner tikka");
+						printf("\n3-->roti");
+						printf("\n4-->paneer chilli");
+						printf("\n5-->lassi");
+						printf("\nEnter your choice");
+						scanf("%d",&punjabi);
+						switch(punjabi)
+						{
+							case 1:printf("you selected kajukari");
+								printf("\n1-->cheese kari");
+								printf("\n2-->paneer kari");
+								printf("\n3-->veg kari");
+								printf("\n4-->nonveg kari");
+								printf("\n5-->egg kari");
+								printf("\nEnter your choice=");
+								scanf("%d",&kajukari);
+								switch(kajukari)
+								{
+									   case 1:printf("you selcted cheese kari");
+										printf("\nEnter number of plate you want?=");
+										scanf("%d",&plate);
+										amount=plate*280;
+										printf("\nyour total bill=%d",amount);
+										break;
+									   case 2:printf("you selected paneer kari");
+										printf("\nEnter number of plate you want?=");
+										scanf("%d",&plate);
+										amount=plate*300;
+										printf("\nyour total bill=%d",amount);
+										break;
+									   case 3:printf("you selected veg kari");
+										printf("\nEnter number of plate you want?=");
+										scanf("%d",&plate);
+										amount=plate*250;
+										printf("\nyour toal bill=%d",amount);
+										break;
+									   case 4:printf("you selected nonveg kari");
+										printf("\nEnter number of plate you want?=");
+										scanf("%d",&plate);
+										amount=plate*300;
+										printf("\nyour total bill=%d",amount);
+										break;
+									   case 5:printf("you selected egg kari");
+										printf("\nEnter number of plate you want?=");
+										scanf("%d",&plate);
+										amount=plate*280;
+										printf("\nyour total bill=%d",amount);
+										break;
+
+								}
+								 break;//kajukari
+								 case 2:printf("you selected paneer tikka");
+									printf("\n1-->cheese tikka");
+									printf("\n2-->butter tikka");
+									printf("\n3-->spicy tikka");
+									printf("\n4-->punjabi tikka");
+									printf("\n5-->mutter tikka");
+									printf("\nEnter your choice");
+									scanf("%d",&paneertikka);
+									switch(paneertikka)
+									{
+										case 1:printf("you selected cheese tikka");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*180;
+											printf("\nyour total bill=%d",amount);
+											break;
+										case 2:printf("you selected butter tikka");
+											printf("\Enter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*200;
+											printf("\nyour total bill=%d",amount);
+											break;
+										case 3:printf("you selected spicy tikka");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*190;
+											printf("\nyour total bill=%d",amount);
+											break;
+
+										case 4:printf("you selected punjabi tikka");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*280;
+											printf("\nyour total bill=%d",amount);
+											break;
+										case 5:printf("you selected mutter tikka");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*200;
+											printf("\nyour total bill=%d",amount);
+											break;
+									}//paneer tikka
+									    break;
+								 case 3:printf("you selected roti");
+									printf("\n1-->chapati");
+									printf("\n2-->tanduri");
+									printf("\n3-->naan");
+									printf("\n4-->ghee chapati");
+									printf("\n5-->butter chapati");
+									printf("\nEnter your choice");
+									scanf("%d",&roti);
+									switch(roti)
+									{
+										 case 1:printf("you selected roti");
+											printf("\nEnter nujumber of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*20;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 2:printf("you selected tanduri");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*25;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 3:printf("you selected naan ");
+											printf("\nenter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*30;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 4:printf("you selected ghee chapati");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*27;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 5:printf("you selected butter chapati");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*35;
+											printf("\nyour total bill=%d",amount);
+											break;
+
+									}//roti
+									break;
+								 case 4:printf("you selected paneer chilli");
+									printf("\n1-->spicy chilli");
+									printf("\n2-->cheese chilli");
+									printf("\n3-->paneer chilli");
+									printf("\n4-->vefer chilli");
+									printf("\n5-->butter chilli");
+									printf("\nEnter your choice=");
+									scanf("%d",&paneerchilli);
+									switch(paneerchilli)
+									{
+										case 1:printf("you selected spicy chilli");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*155;
+											printf("\nyour total bill =%d",amount);
+											break;
+										case 2:printf("you selected cheese chilli");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*135;
+											printf("\nyour total bill=%d",amount);
+											break;
+										case 3:printf("you selected paneer chilli");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*155;
+											printf("\nyour total bill=%d",amount);
+											break;
+										case 4:printf("you selected vefer chilli");
+											printf("\nEnter number of plate you want");
+											scanf("%d",&plate);
+											amount=plate*124;
+											printf("\nyour total bill=%d",amount);
+											break;
+										case 5:printf("you selected butter chilli");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*145;
+											printf("\nyour total bill=%d",amount);
+											break;
+
+									}//paneer chilli
+									break;
+								 case 5:printf("you selected lassi");
+									printf("\n1-->mango lassi");
+									printf("\n2-->rose lassi");
+									printf("\n3-->panjabi lassi");
+									printf("\n4-->butter lassi");
+									printf("\n5-->vimal lassi");
+									printf("\nEnter your choice");
+									scanf("%d",&lassi);
+									switch(lassi)
+									{
+										 case 1:printf("you selected mango lassi");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*40;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 2:printf("you selected rose lassi");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*50;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 3:printf("you selected panjabi lassi");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*10;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 4:printf("you selected butter lassi");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*125;
+											printf("\nyour total bill=%d",amount);
+											break;
+										 case 5:printf("you selected vimal lassi");
+											printf("\nEnter number of plate you want?=");
+											scanf("%d",&plate);
+											amount=plate*120;
+											printf("\nyour total bill=%d",amount);
+											break;
+									};//lassi
+									break;
+						}//panjabi
+						 break;
+				   case 5:printf("you selected south indian food");
+					  printf("\n1-->dosa");
+					  printf("\n2-->idali");
+					  printf("\n3-->fish");
+					  printf("\n4-->sambhar");
+					  printf("\n5-->chatani");
+					  printf("\nEnter your choice=");
+					  scanf("%d",&south_indian);
+
+
+					  switch(south_indian)
+					  {
+						 case 1:printf("you selected dosa");
+							printf("\n1-->cheese dosa");
+							printf("\n2-->panner dosa");
+							printf("\n3-->spicy dosa");
+							printf("\n4-->chilli dosa");
+							printf("\n5-->pizza dosa");
+							printf("\nEnter your choice");
+							scanf("%d",&dosa);
+							switch(dosa)
+							{
+								 case 1:printf("you selected dosa");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*225;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 2:printf("you selected panner dosa");
+									printf("\nEnetr number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*224;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 3:printf("you selected spicy dosa");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*250;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 4:printf("you selected chilli dosa");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*150;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 5:printf("you selected pizza dosa");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*234;
+									printf("\nyour total bill=%d",amount);
+									break;
+							}//dosa
+							break;
+						  case 2:printf("you selected idali");
+							 printf("\n1-->makai idali");
+							 printf("\n2-->cheese idali");
+							 printf("\n3-->south indian idali");
+							 printf("\n4-->spicy idali");
+							 printf("\n5-->idali tadaka");
+							 printf("\nEnter your choice");
+							 scanf("%d",&idali);
+							 switch(idali)
+							 {
+								 case 1:printf("you selected makai idali");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*50;
+									printf("\nyour total bill=%d",amount);
+									break;
+
+								 case 2:printf("you selected cheese idali");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*160;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 3:printf("you selected south indian idali");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*125;
+									printf("\nyour total bill=%d",amount);
+									break;
+
+								 case 4:printf("you selected spicy idali");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*225;
+
+									printf("your total bill=%d",amount);
+									break;
+								 case 5:printf("you selected idali tadaka");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*124;
+									printf("\nyour total bill=%d",amount);
+
+
+							 }//idali
+							 break;
+
+						   case 3:printf("you selected fish");
+							  printf("\n1-->fish fry");
+							  printf("\n2-->fish curry");
+							  printf("\n3-->fish rice");
+							  printf("\n4-->fish tanduri");
+							  printf("\n5-->spicy fish");
+							  printf("\nEnter your choice =");
+							  scanf("%d",&fish);
+							  switch(fish)
+							  {
+								case 1:printf("you selected fish fry");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*80;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 2:printf("you selected fish curry");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*89;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 3:printf("you selected fish rice");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*99;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 4:printf("you selected fish tanduri");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*69;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 5:printf("you selected spicy fish");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*79;
+									printf("\nyour total bill=%d",amount);
+									break;
+							  }//fish
+							    break;
+						    case 4:printf("you selected sambhar");
+							   printf("\n1-->special sambhar");
+							   printf("\n2-->panner sambhar");
+							   printf("\n3-->chese sambhar");
+							   printf("\n4-->sambhar tadaka");
+							   printf("\n5-->spicy sambhar");
+							   printf("\nEnter your choice");
+							   scanf("%d",&sambhar);
+							   switch(sambhar)
+							   {
+								 case 1:printf("you selected special sambhar");
+									printf("\nEnter number pf plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*89;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 2:printf("you selected panner sambhar");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*79;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 3:printf("you selected chese sambhar");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*89;
+									printf("\nyour total bill=%d",amount);
+									 break;
+								 case 4:printf("you selected sambhar tadaka");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=69*plate;
+									printf("\nyour total bill=%d",amount);
+									break;
+								 case 5:printf("you selected spicy");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*99;
+									printf("\nyour total bill=%d",amount);
+									break;
+
+							   }//sambhar
+
+							   break;
+						    case 5:printf("you selected chatani");
+							   printf("\n1-->chese chatani");
+							   printf("\n2-->coconut chatani");
+							   printf("\n3-->banana chatani");
+							   printf("\n4-->oil chatani");
+							   printf("\n5-->panner chatani");
+							   printf("\nEnter your choice");
+							   scanf("%d",&chatani);
+							   switch(chatani)
+							   {
+								case 1:printf("you selected chese chatani");
+									printf("\nEnter number ofpl ate you want?=");
+									scanf("%d",&plate);
+									amount=plate*89;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 2:printf("you selected coconur chatani");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*79;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 3:printf("you selected banana chatani");
+									printf("\nEnter numner of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*99;
+									printf("\nyour total bill=%d",amount);
+									break;
+
+								case 4:printf("you selected oil chatani");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=99*plate;
+									printf("\nyour total bill=%d",amount);
+									break;
+								case 5:printf("you selected panner chatani");
+									printf("\nEnter number of plate you want?=");
+									scanf("%d",&plate);
+									amount=plate*69;
+									printf("\nyour total bill=%d",amount);
+									break;
+
+
+							   }//chatani
+							   break;
+
+					  }//southindian
+
+
+
+
+       }//main
+
+	getch();
+}
